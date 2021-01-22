@@ -333,10 +333,10 @@ class DurationRange {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is DurationRange &&
-          runtimeType == other.runtimeType &&
-          start == other.start &&
-          end == other.end;
+          other is DurationRange &&
+              runtimeType == other.runtimeType &&
+              start == other.start &&
+              end == other.end;
 
   @override
   int get hashCode => start.hashCode ^ end.hashCode;
@@ -347,7 +347,8 @@ class VideoPlayerOptions {
   /// Set this to true to mix the video players audio with other audio sources.
   /// The default value is false
   final bool mixWithOthers;
+  final bool observeAppLifecycle;
 
   /// set additional optional player settings
-  VideoPlayerOptions({this.mixWithOthers = false});
+  VideoPlayerOptions({this.mixWithOthers = false, this.observeAppLifecycle});
 }
