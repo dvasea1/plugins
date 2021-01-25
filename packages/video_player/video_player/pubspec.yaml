@@ -38,7 +38,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pedantic: ^1.10.0-nullsafety.1
+  #pedantic: ^1.10.0-nullsafety.1
   pigeon: 0.1.7
 
 environment:
