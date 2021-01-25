@@ -26,7 +26,7 @@ dev_dependencies:
     sdk: flutter
   video_player:
     path: ../video_player
-  pedantic: ^1.10.0-nullsafety.1
+  #pedantic: ^1.10.0-nullsafety.1
 
 environment:
   sdk: ">=2.10.3 <3.0.0"
